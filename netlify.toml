@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[dev]
+  command = "npm run dev"
+  port = 3000
+  publish = "out" # This is important for Next.js static export
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
