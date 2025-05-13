@@ -7,7 +7,7 @@ const nextConfig = {
     unoptimized: true, // Necessary for static export if using next/image
   },
   // If you were deploying to a subdirectory, you'd set basePath here
-  // basePath: "/your-subdirectory",
+  basePath: "/docs",
 };
 
 module.exports = nextConfig;
